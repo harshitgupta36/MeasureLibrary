@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
-// swift-module-flags: -target arm64-apple-ios26.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name HHARCoreKit
+// swift-module-flags: -target arm64-apple-ios26.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name HHARCoreKit
 // swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import ARKit
 import Foundation
@@ -13,14 +13,6 @@ import _Concurrency
 import _SceneKit_SwiftUI
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_hasMissingDesignatedInitializers final public class HHARCoreKitMarker {
-  @objc deinit
-}
-@_hasMissingDesignatedInitializers final public class HHARCoreKitConfig {
-  public static var accentColor: UIKit.UIColor
-  public static var isHideBackButton: Swift.Bool
-  @objc deinit
-}
 public enum AppStoryboard : Swift.String {
   case main
   case arMeasure
@@ -49,6 +41,14 @@ public enum AppStoryboard : Swift.String {
   public typealias UIViewControllerType = UIKit.UINavigationController
   public typealias Body = Swift.Never
   public typealias Coordinator = Swift.Void
+}
+@_hasMissingDesignatedInitializers final public class HHARCoreKitMarker {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class HHARCoreKitConfig {
+  public static var accentColor: UIKit.UIColor
+  public static var isHideBackButton: Swift.Bool
+  @objc deinit
 }
 extension HHARCoreKit.AppStoryboard : Swift.Equatable {}
 extension HHARCoreKit.AppStoryboard : Swift.Hashable {}

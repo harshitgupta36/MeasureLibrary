@@ -1,0 +1,56 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-module-flags: -target x86_64-apple-ios26.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name HHARCoreKit
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
+import ARKit
+import Foundation
+import SceneKit
+import Swift
+import SwiftUI
+import UIKit.UIGestureRecognizerSubclass
+import UIKit
+import _Concurrency
+import _SceneKit_SwiftUI
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum AppStoryboard : Swift.String {
+  case main
+  case arMeasure
+  public var instance: UIKit.UIStoryboard {
+    get
+  }
+  public func viewController<T>(viewControllerClass: T.Type, function: Swift.String = #function, line: Swift.Int = #line, file: Swift.String = #file) -> T where T : UIKit.UIViewController
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func initialViewController() -> UIKit.UIViewController?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@_Concurrency.MainActor @preconcurrency public struct ARMeasureSwiftUIView : SwiftUI.UIViewControllerRepresentable {
+  @_Concurrency.MainActor @preconcurrency public var completionBack: (() -> Swift.Void)?
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency public init(completionBack: (() -> Swift.Void)? = nil)
+  #endif
+  @_Concurrency.MainActor @preconcurrency public func makeUIViewController(context: HHARCoreKit.ARMeasureSwiftUIView.Context) -> UIKit.UINavigationController
+  @_Concurrency.MainActor @preconcurrency public func updateUIViewController(_ uiViewController: UIKit.UINavigationController, context: HHARCoreKit.ARMeasureSwiftUIView.Context)
+  public typealias UIViewControllerType = UIKit.UINavigationController
+  public typealias Body = Swift.Never
+  public typealias Coordinator = Swift.Void
+}
+@_hasMissingDesignatedInitializers final public class HHARCoreKitMarker {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class HHARCoreKitConfig {
+  public static var accentColor: UIKit.UIColor
+  public static var isHideBackButton: Swift.Bool
+  @objc deinit
+}
+extension HHARCoreKit.AppStoryboard : Swift.Equatable {}
+extension HHARCoreKit.AppStoryboard : Swift.Hashable {}
+extension HHARCoreKit.AppStoryboard : Swift.RawRepresentable {}
+extension HHARCoreKit.ARMeasureSwiftUIView : Swift.Sendable {}

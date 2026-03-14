@@ -1,0 +1,2560 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "HHARCoreKit",
+    "printedName": "HHARCoreKit",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ARKit",
+        "printedName": "ARKit",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SceneKit",
+        "printedName": "SceneKit",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SceneKit",
+        "printedName": "SceneKit",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Photos",
+        "printedName": "Photos",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AppStoryboard",
+        "printedName": "AppStoryboard",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "main",
+            "printedName": "main",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HHARCoreKit.AppStoryboard.Type) -> HHARCoreKit.AppStoryboard",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AppStoryboard",
+                    "printedName": "HHARCoreKit.AppStoryboard",
+                    "usr": "s:11HHARCoreKit13AppStoryboardO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HHARCoreKit.AppStoryboard.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AppStoryboard",
+                        "printedName": "HHARCoreKit.AppStoryboard",
+                        "usr": "s:11HHARCoreKit13AppStoryboardO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11HHARCoreKit13AppStoryboardO4mainyA2CmF",
+            "mangledName": "$s11HHARCoreKit13AppStoryboardO4mainyA2CmF",
+            "moduleName": "HHARCoreKit"
+          },
+          {
+            "kind": "Var",
+            "name": "arMeasure",
+            "printedName": "arMeasure",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HHARCoreKit.AppStoryboard.Type) -> HHARCoreKit.AppStoryboard",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AppStoryboard",
+                    "printedName": "HHARCoreKit.AppStoryboard",
+                    "usr": "s:11HHARCoreKit13AppStoryboardO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HHARCoreKit.AppStoryboard.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AppStoryboard",
+                        "printedName": "HHARCoreKit.AppStoryboard",
+                        "usr": "s:11HHARCoreKit13AppStoryboardO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11HHARCoreKit13AppStoryboardO9arMeasureyA2CmF",
+            "mangledName": "$s11HHARCoreKit13AppStoryboardO9arMeasureyA2CmF",
+            "moduleName": "HHARCoreKit"
+          },
+          {
+            "kind": "Var",
+            "name": "instance",
+            "printedName": "instance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIStoryboard",
+                "printedName": "UIKit.UIStoryboard",
+                "usr": "c:objc(cs)UIStoryboard"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11HHARCoreKit13AppStoryboardO8instanceSo12UIStoryboardCvp",
+            "mangledName": "$s11HHARCoreKit13AppStoryboardO8instanceSo12UIStoryboardCvp",
+            "moduleName": "HHARCoreKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIStoryboard",
+                    "printedName": "UIKit.UIStoryboard",
+                    "usr": "c:objc(cs)UIStoryboard"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11HHARCoreKit13AppStoryboardO8instanceSo12UIStoryboardCvg",
+                "mangledName": "$s11HHARCoreKit13AppStoryboardO8instanceSo12UIStoryboardCvg",
+                "moduleName": "HHARCoreKit",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "viewController",
+            "printedName": "viewController(viewControllerClass:function:line:file:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11HHARCoreKit13AppStoryboardO14viewController0eF5Class8function4line4filexxm_SSSiSStSo06UIViewF0CRbzlF",
+            "mangledName": "$s11HHARCoreKit13AppStoryboardO14viewController0eF5Class8function4line4filexxm_SSSiSStSo06UIViewF0CRbzlF",
+            "moduleName": "HHARCoreKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIViewController>",
+            "sugared_genericSig": "<T where T : UIKit.UIViewController>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initialViewController",
+            "printedName": "initialViewController()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11HHARCoreKit13AppStoryboardO21initialViewControllerSo06UIViewG0CSgyF",
+            "mangledName": "$s11HHARCoreKit13AppStoryboardO21initialViewControllerSo06UIViewG0CSgyF",
+            "moduleName": "HHARCoreKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "HHARCoreKit.AppStoryboard?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AppStoryboard",
+                    "printedName": "HHARCoreKit.AppStoryboard",
+                    "usr": "s:11HHARCoreKit13AppStoryboardO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11HHARCoreKit13AppStoryboardO8rawValueACSgSS_tcfc",
+            "mangledName": "$s11HHARCoreKit13AppStoryboardO8rawValueACSgSS_tcfc",
+            "moduleName": "HHARCoreKit",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11HHARCoreKit13AppStoryboardO8rawValueSSvp",
+            "mangledName": "$s11HHARCoreKit13AppStoryboardO8rawValueSSvp",
+            "moduleName": "HHARCoreKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11HHARCoreKit13AppStoryboardO8rawValueSSvg",
+                "mangledName": "$s11HHARCoreKit13AppStoryboardO8rawValueSSvg",
+                "moduleName": "HHARCoreKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11HHARCoreKit13AppStoryboardO",
+        "mangledName": "$s11HHARCoreKit13AppStoryboardO",
+        "moduleName": "HHARCoreKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ARKit",
+        "printedName": "ARKit",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit"
+      },
+      {
+        "kind": "Import",
+        "name": "ARKit",
+        "printedName": "ARKit",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SceneKit",
+        "printedName": "SceneKit",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SceneKit",
+        "printedName": "SceneKit",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit"
+      },
+      {
+        "kind": "Import",
+        "name": "ARKit",
+        "printedName": "ARKit",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit"
+      },
+      {
+        "kind": "Import",
+        "name": "ARKit",
+        "printedName": "ARKit",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ARKit",
+        "printedName": "ARKit",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ARKit",
+        "printedName": "ARKit",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ARKit",
+        "printedName": "ARKit",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ARKit",
+        "printedName": "ARKit",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SceneKit",
+        "printedName": "SceneKit",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit"
+      },
+      {
+        "kind": "Import",
+        "name": "ARKit",
+        "printedName": "ARKit",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ARKit",
+        "printedName": "ARKit",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ARMeasureSwiftUIView",
+        "printedName": "ARMeasureSwiftUIView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "completionBack",
+            "printedName": "completionBack",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11HHARCoreKit20ARMeasureSwiftUIViewV14completionBackyycSgvp",
+            "mangledName": "$s11HHARCoreKit20ARMeasureSwiftUIViewV14completionBackyycSgvp",
+            "moduleName": "HHARCoreKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11HHARCoreKit20ARMeasureSwiftUIViewV14completionBackyycSgvg",
+                "mangledName": "$s11HHARCoreKit20ARMeasureSwiftUIViewV14completionBackyycSgvg",
+                "moduleName": "HHARCoreKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11HHARCoreKit20ARMeasureSwiftUIViewV14completionBackyycSgvs",
+                "mangledName": "$s11HHARCoreKit20ARMeasureSwiftUIViewV14completionBackyycSgvs",
+                "moduleName": "HHARCoreKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11HHARCoreKit20ARMeasureSwiftUIViewV14completionBackyycSgvM",
+                "mangledName": "$s11HHARCoreKit20ARMeasureSwiftUIViewV14completionBackyycSgvM",
+                "moduleName": "HHARCoreKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(completionBack:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ARMeasureSwiftUIView",
+                "printedName": "HHARCoreKit.ARMeasureSwiftUIView",
+                "usr": "s:11HHARCoreKit20ARMeasureSwiftUIViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11HHARCoreKit20ARMeasureSwiftUIViewV14completionBackACyycSg_tcfc",
+            "mangledName": "$s11HHARCoreKit20ARMeasureSwiftUIViewV14completionBackACyycSg_tcfc",
+            "moduleName": "HHARCoreKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "makeUIViewController",
+            "printedName": "makeUIViewController(context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UINavigationController",
+                "printedName": "UIKit.UINavigationController",
+                "usr": "c:objc(cs)UINavigationController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewControllerRepresentableContext",
+                "printedName": "SwiftUI.UIViewControllerRepresentableContext<HHARCoreKit.ARMeasureSwiftUIView>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ARMeasureSwiftUIView",
+                    "printedName": "HHARCoreKit.ARMeasureSwiftUIView",
+                    "usr": "s:11HHARCoreKit20ARMeasureSwiftUIViewV"
+                  }
+                ],
+                "usr": "s:7SwiftUI36UIViewControllerRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11HHARCoreKit20ARMeasureSwiftUIViewV04makeE10Controller7contextSo012UINavigationG0C0D2UI0eG20RepresentableContextVyACG_tF",
+            "mangledName": "$s11HHARCoreKit20ARMeasureSwiftUIViewV04makeE10Controller7contextSo012UINavigationG0C0D2UI0eG20RepresentableContextVyACG_tF",
+            "moduleName": "HHARCoreKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateUIViewController",
+            "printedName": "updateUIViewController(_:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UINavigationController",
+                "printedName": "UIKit.UINavigationController",
+                "usr": "c:objc(cs)UINavigationController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewControllerRepresentableContext",
+                "printedName": "SwiftUI.UIViewControllerRepresentableContext<HHARCoreKit.ARMeasureSwiftUIView>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ARMeasureSwiftUIView",
+                    "printedName": "HHARCoreKit.ARMeasureSwiftUIView",
+                    "usr": "s:11HHARCoreKit20ARMeasureSwiftUIViewV"
+                  }
+                ],
+                "usr": "s:7SwiftUI36UIViewControllerRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11HHARCoreKit20ARMeasureSwiftUIViewV06updateE10Controller_7contextySo012UINavigationG0C_0D2UI0eG20RepresentableContextVyACGtF",
+            "mangledName": "$s11HHARCoreKit20ARMeasureSwiftUIViewV06updateE10Controller_7contextySo012UINavigationG0C_0D2UI0eG20RepresentableContextVyACGtF",
+            "moduleName": "HHARCoreKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11HHARCoreKit20ARMeasureSwiftUIViewV",
+        "mangledName": "$s11HHARCoreKit20ARMeasureSwiftUIViewV",
+        "moduleName": "HHARCoreKit",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UIViewControllerRepresentable",
+            "printedName": "UIViewControllerRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UIViewControllerType",
+                "printedName": "UIViewControllerType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UINavigationController",
+                    "printedName": "UIKit.UINavigationController",
+                    "usr": "c:objc(cs)UINavigationController"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Coordinator",
+                "printedName": "Coordinator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI29UIViewControllerRepresentableP",
+            "mangledName": "$s7SwiftUI29UIViewControllerRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Photos",
+        "printedName": "Photos",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit.UIGestureRecognizerSubclass",
+        "printedName": "UIKit.UIGestureRecognizerSubclass",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ARKit",
+        "printedName": "ARKit",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ARKit",
+        "printedName": "ARKit",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HHARCoreKitMarker",
+        "printedName": "HHARCoreKitMarker",
+        "declKind": "Class",
+        "usr": "s:11HHARCoreKit0aB6MarkerC",
+        "mangledName": "$s11HHARCoreKit0aB6MarkerC",
+        "moduleName": "HHARCoreKit",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HHARCoreKitConfig",
+        "printedName": "HHARCoreKitConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "accentColor",
+            "printedName": "accentColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11HHARCoreKit0aB6ConfigC11accentColorSo7UIColorCvpZ",
+            "mangledName": "$s11HHARCoreKit0aB6ConfigC11accentColorSo7UIColorCvpZ",
+            "moduleName": "HHARCoreKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11HHARCoreKit0aB6ConfigC11accentColorSo7UIColorCvgZ",
+                "mangledName": "$s11HHARCoreKit0aB6ConfigC11accentColorSo7UIColorCvgZ",
+                "moduleName": "HHARCoreKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11HHARCoreKit0aB6ConfigC11accentColorSo7UIColorCvsZ",
+                "mangledName": "$s11HHARCoreKit0aB6ConfigC11accentColorSo7UIColorCvsZ",
+                "moduleName": "HHARCoreKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11HHARCoreKit0aB6ConfigC11accentColorSo7UIColorCvMZ",
+                "mangledName": "$s11HHARCoreKit0aB6ConfigC11accentColorSo7UIColorCvMZ",
+                "moduleName": "HHARCoreKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isHideBackButton",
+            "printedName": "isHideBackButton",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11HHARCoreKit0aB6ConfigC16isHideBackButtonSbvpZ",
+            "mangledName": "$s11HHARCoreKit0aB6ConfigC16isHideBackButtonSbvpZ",
+            "moduleName": "HHARCoreKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11HHARCoreKit0aB6ConfigC16isHideBackButtonSbvgZ",
+                "mangledName": "$s11HHARCoreKit0aB6ConfigC16isHideBackButtonSbvgZ",
+                "moduleName": "HHARCoreKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11HHARCoreKit0aB6ConfigC16isHideBackButtonSbvsZ",
+                "mangledName": "$s11HHARCoreKit0aB6ConfigC16isHideBackButtonSbvsZ",
+                "moduleName": "HHARCoreKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11HHARCoreKit0aB6ConfigC16isHideBackButtonSbvMZ",
+                "mangledName": "$s11HHARCoreKit0aB6ConfigC16isHideBackButtonSbvMZ",
+                "moduleName": "HHARCoreKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11HHARCoreKit0aB6ConfigC",
+        "mangledName": "$s11HHARCoreKit0aB6ConfigC",
+        "moduleName": "HHARCoreKit",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Focus Square\/FocusSquare.swift",
+      "kind": "FloatLiteral",
+      "offset": 552,
+      "length": 4,
+      "value": "0.17"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Focus Square\/FocusSquare.swift",
+      "kind": "FloatLiteral",
+      "offset": 650,
+      "length": 5,
+      "value": "0.018"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Focus Square\/FocusSquare.swift",
+      "kind": "FloatLiteral",
+      "offset": 792,
+      "length": 4,
+      "value": "0.97"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Focus Square\/FocusSquare.swift",
+      "kind": "FloatLiteral",
+      "offset": 944,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Focus Square\/FocusSquare.swift",
+      "kind": "FloatLiteral",
+      "offset": 1032,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Focus Square\/FocusSquare.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2252,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Focus Square\/FocusSquare.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2377,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Focus Square\/FocusSquare.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2537,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Focus Square\/FocusSquare.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2659,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Focus Square\/FocusSquare.swift",
+      "kind": "Array",
+      "offset": 2780,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Focus Square\/FocusSquare.swift",
+      "kind": "Array",
+      "offset": 2886,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Focus Square\/FocusSquare.swift",
+      "kind": "Array",
+      "offset": 2994,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Focus Square\/FocusSquare.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3259,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Focus Square\/FocusSquare.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3305,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Focus Square\/FocusSquare.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11930,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Focus Square\/FocusSquare.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15743,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Focus Square\/FocusSquare.swift",
+      "kind": "FloatLiteral",
+      "offset": 15813,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Focus Square\/FocusSquare.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15843,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Focus Square\/FocusSquare.swift",
+      "kind": "StringLiteral",
+      "offset": 15998,
+      "length": 11,
+      "value": "\"fillPlane\""
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Focus Square\/FocusSquare.swift",
+      "kind": "FloatLiteral",
+      "offset": 16033,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Focus Square\/FocusSquare.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16173,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Focus Square\/FocusSquareSegment.swift",
+      "kind": "FloatLiteral",
+      "offset": 1080,
+      "length": 5,
+      "value": "0.018"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Focus Square\/FocusSquareSegment.swift",
+      "kind": "FloatLiteral",
+      "offset": 1175,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Focus Square\/FocusSquareSegment.swift",
+      "kind": "FloatLiteral",
+      "offset": 1335,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Helper\/ARUserefaults.swift",
+      "kind": "StringLiteral",
+      "offset": 228,
+      "length": 23,
+      "value": "\"selectedDrawComponent\""
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Helper\/ARUserefaults.swift",
+      "kind": "StringLiteral",
+      "offset": 297,
+      "length": 25,
+      "value": "\"selectedMeasurementUnit\""
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Helper\/TempMarkerNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5231,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Helper\/TempMarkerNode.swift",
+      "kind": "StringLiteral",
+      "offset": 5249,
+      "length": 11,
+      "value": "\"Helvatica\""
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Helper\/TempMarkerNode.swift",
+      "kind": "FloatLiteral",
+      "offset": 5282,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseSwiftUIViewRepresentable.swift",
+      "kind": "Array",
+      "offset": 366,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseSwiftUIViewRepresentable.swift",
+      "kind": "Array",
+      "offset": 407,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseSwiftUIViewRepresentable.swift",
+      "kind": "Array",
+      "offset": 443,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseSwiftUIViewRepresentable.swift",
+      "kind": "FloatLiteral",
+      "offset": 476,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseSwiftUIViewRepresentable.swift",
+      "kind": "Array",
+      "offset": 6055,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseSwiftUIViewRepresentable.swift",
+      "kind": "Array",
+      "offset": 6096,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseSwiftUIViewRepresentable.swift",
+      "kind": "Array",
+      "offset": 6133,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseSwiftUIViewRepresentable.swift",
+      "kind": "FloatLiteral",
+      "offset": 6166,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "Array",
+      "offset": 208,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "Array",
+      "offset": 249,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "Array",
+      "offset": 286,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 604,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 647,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 673,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 737,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 763,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "StringLiteral",
+      "offset": 871,
+      "length": 106,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 972,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "StringLiteral",
+      "offset": 976,
+      "length": 13,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1173,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1248,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1307,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1372,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1392,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1519,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1548,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1684,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1890,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1947,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2024,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2055,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2130,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2208,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2554,
+      "length": 3,
+      "value": "0.9"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2679,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2686,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2772,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2780,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2817,
+      "length": 5,
+      "value": "360.0"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2842,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2854,
+      "length": 5,
+      "value": "180.0"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2942,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3061,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3469,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3517,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3564,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3611,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3921,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3961,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "FloatLiteral",
+      "offset": 4345,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "FloatLiteral",
+      "offset": 4394,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "FloatLiteral",
+      "offset": 4443,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "FloatLiteral",
+      "offset": 4491,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "FloatLiteral",
+      "offset": 4747,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "FloatLiteral",
+      "offset": 4815,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5341,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5415,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5519,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5559,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5709,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5714,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5893,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5920,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6069,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "StringLiteral",
+      "offset": 6139,
+      "length": 106,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "StringLiteral",
+      "offset": 6244,
+      "length": 13,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6382,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "FloatLiteral",
+      "offset": 7226,
+      "length": 5,
+      "value": "180.0"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "StringLiteral",
+      "offset": 7273,
+      "length": 95,
+      "value": "\"👿👿👿 \""
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "StringLiteral",
+      "offset": 7294,
+      "length": 12,
+      "value": "\" 👿👿👿-----angle \""
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "StringLiteral",
+      "offset": 7326,
+      "length": 5,
+      "value": "\"-----angleInDegrees \""
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "StringLiteral",
+      "offset": 7363,
+      "length": 4,
+      "value": "\"----\""
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7511,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7558,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7732,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7811,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7874,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7943,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7963,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8183,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8460,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8514,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeSwiftUIView.swift",
+      "kind": "Array",
+      "offset": 136,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeSwiftUIView.swift",
+      "kind": "Array",
+      "offset": 177,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeSwiftUIView.swift",
+      "kind": "Array",
+      "offset": 213,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeSwiftUIView.swift",
+      "kind": "FloatLiteral",
+      "offset": 246,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeSwiftUIView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 357,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeSwiftUIView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 399,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Shape\/ShowShapeSwiftUIView.swift",
+      "kind": "StringLiteral",
+      "offset": 443,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/StoryBoard\/AppStoryboard.swift",
+      "kind": "StringLiteral",
+      "offset": 167,
+      "length": 6,
+      "value": "\"Main\""
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/StoryBoard\/AppStoryboard.swift",
+      "kind": "StringLiteral",
+      "offset": 195,
+      "length": 11,
+      "value": "\"ARMeasure\""
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Toast\/Toast.swift",
+      "kind": "FloatLiteral",
+      "offset": 1239,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/ViewController\/ARMeasurementViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1660,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/ViewController\/ARMeasurementViewController.swift",
+      "kind": "Array",
+      "offset": 2175,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/ViewController\/ARMeasurementViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2209,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/ViewController\/ARMeasurementViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3966,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/ViewController\/StatusViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1305,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/ViewController\/StatusViewController.swift",
+      "kind": "Dictionary",
+      "offset": 1439,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/ViewController\/StatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3548,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/ViewController\/VirtualObjectSelection.swift",
+      "kind": "StringLiteral",
+      "offset": 188,
+      "length": 12,
+      "value": "\"ObjectCell\""
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/ViewController\/VirtualObjectSelection.swift",
+      "kind": "StringLiteral",
+      "offset": 391,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Virtual Objects\/VirtualObject.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1695,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Virtual Objects\/VirtualObject.swift",
+      "kind": "StringLiteral",
+      "offset": 2136,
+      "length": 18,
+      "value": "\"Models.scnassets\""
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Virtual Objects\/VirtualObject.swift",
+      "kind": "Array",
+      "offset": 2275,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Virtual Objects\/VirtualObject.swift",
+      "kind": "StringLiteral",
+      "offset": 2413,
+      "length": 5,
+      "value": "\"scn\""
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Virtual Objects\/VirtualObject.swift",
+      "kind": "StringLiteral",
+      "offset": 2441,
+      "length": 10,
+      "value": "\"lighting\""
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Virtual Objects\/VirtualObjectLoader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 349,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/AppStrings.swift",
+      "kind": "StringLiteral",
+      "offset": 11823,
+      "length": 13,
+      "value": "\"appLanguage\""
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/AppStrings.swift",
+      "kind": "StringLiteral",
+      "offset": 11841,
+      "length": 4,
+      "value": "\"en\""
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/CircularBlurButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 194,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/CircularBlurButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1125,
+      "length": 2,
+      "value": "44"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/CircularBlurButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1137,
+      "length": 2,
+      "value": "44"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/ThresholdPanGesture.swift",
+      "kind": "BooleanLiteral",
+      "offset": 451,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/ThresholdPanGesture.swift",
+      "kind": "BooleanLiteral",
+      "offset": 808,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/VirtualObjectInteraction.swift",
+      "kind": "BooleanLiteral",
+      "offset": 337,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/HHARCoreKitMarker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 393,
+      "length": 2,
+      "value": "31"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/HHARCoreKitMarker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 396,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/HHARCoreKitMarker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 416,
+      "length": 3,
+      "value": "106"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/HHARCoreKitMarker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 420,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/HHARCoreKitMarker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 439,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/HHARCoreKitMarker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 443,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/HHARCoreKitMarker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 463,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/HHARCoreKitMarker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 517,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

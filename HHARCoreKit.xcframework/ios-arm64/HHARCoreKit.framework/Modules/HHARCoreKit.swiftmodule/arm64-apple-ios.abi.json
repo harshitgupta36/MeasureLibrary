@@ -16,296 +16,6 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "HHARCoreKit"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "HHARCoreKitMarker",
-        "printedName": "HHARCoreKitMarker",
-        "declKind": "Class",
-        "usr": "s:11HHARCoreKit0aB6MarkerC",
-        "mangledName": "$s11HHARCoreKit0aB6MarkerC",
-        "moduleName": "HHARCoreKit",
-        "declAttributes": [
-          "Final",
-          "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "HHARCoreKitConfig",
-        "printedName": "HHARCoreKitConfig",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "accentColor",
-            "printedName": "accentColor",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIColor",
-                "printedName": "UIKit.UIColor",
-                "usr": "c:objc(cs)UIColor"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11HHARCoreKit0aB6ConfigC11accentColorSo7UIColorCvpZ",
-            "mangledName": "$s11HHARCoreKit0aB6ConfigC11accentColorSo7UIColorCvpZ",
-            "moduleName": "HHARCoreKit",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIColor",
-                    "printedName": "UIKit.UIColor",
-                    "usr": "c:objc(cs)UIColor"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11HHARCoreKit0aB6ConfigC11accentColorSo7UIColorCvgZ",
-                "mangledName": "$s11HHARCoreKit0aB6ConfigC11accentColorSo7UIColorCvgZ",
-                "moduleName": "HHARCoreKit",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIColor",
-                    "printedName": "UIKit.UIColor",
-                    "usr": "c:objc(cs)UIColor"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11HHARCoreKit0aB6ConfigC11accentColorSo7UIColorCvsZ",
-                "mangledName": "$s11HHARCoreKit0aB6ConfigC11accentColorSo7UIColorCvsZ",
-                "moduleName": "HHARCoreKit",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11HHARCoreKit0aB6ConfigC11accentColorSo7UIColorCvMZ",
-                "mangledName": "$s11HHARCoreKit0aB6ConfigC11accentColorSo7UIColorCvMZ",
-                "moduleName": "HHARCoreKit",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "isHideBackButton",
-            "printedName": "isHideBackButton",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11HHARCoreKit0aB6ConfigC16isHideBackButtonSbvpZ",
-            "mangledName": "$s11HHARCoreKit0aB6ConfigC16isHideBackButtonSbvpZ",
-            "moduleName": "HHARCoreKit",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11HHARCoreKit0aB6ConfigC16isHideBackButtonSbvgZ",
-                "mangledName": "$s11HHARCoreKit0aB6ConfigC16isHideBackButtonSbvgZ",
-                "moduleName": "HHARCoreKit",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11HHARCoreKit0aB6ConfigC16isHideBackButtonSbvsZ",
-                "mangledName": "$s11HHARCoreKit0aB6ConfigC16isHideBackButtonSbvsZ",
-                "moduleName": "HHARCoreKit",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11HHARCoreKit0aB6ConfigC16isHideBackButtonSbvMZ",
-                "mangledName": "$s11HHARCoreKit0aB6ConfigC16isHideBackButtonSbvMZ",
-                "moduleName": "HHARCoreKit",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:11HHARCoreKit0aB6ConfigC",
-        "mangledName": "$s11HHARCoreKit0aB6ConfigC",
-        "moduleName": "HHARCoreKit",
-        "declAttributes": [
-          "Final",
-          "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "HHARCoreKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "HHARCoreKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "ARKit",
         "printedName": "ARKit",
         "declKind": "Import",
@@ -1487,67 +1197,301 @@
         "printedName": "ARKit",
         "declKind": "Import",
         "moduleName": "HHARCoreKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HHARCoreKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HHARCoreKitMarker",
+        "printedName": "HHARCoreKitMarker",
+        "declKind": "Class",
+        "usr": "s:11HHARCoreKit0aB6MarkerC",
+        "mangledName": "$s11HHARCoreKit0aB6MarkerC",
+        "moduleName": "HHARCoreKit",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HHARCoreKitConfig",
+        "printedName": "HHARCoreKitConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "accentColor",
+            "printedName": "accentColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11HHARCoreKit0aB6ConfigC11accentColorSo7UIColorCvpZ",
+            "mangledName": "$s11HHARCoreKit0aB6ConfigC11accentColorSo7UIColorCvpZ",
+            "moduleName": "HHARCoreKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11HHARCoreKit0aB6ConfigC11accentColorSo7UIColorCvgZ",
+                "mangledName": "$s11HHARCoreKit0aB6ConfigC11accentColorSo7UIColorCvgZ",
+                "moduleName": "HHARCoreKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11HHARCoreKit0aB6ConfigC11accentColorSo7UIColorCvsZ",
+                "mangledName": "$s11HHARCoreKit0aB6ConfigC11accentColorSo7UIColorCvsZ",
+                "moduleName": "HHARCoreKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11HHARCoreKit0aB6ConfigC11accentColorSo7UIColorCvMZ",
+                "mangledName": "$s11HHARCoreKit0aB6ConfigC11accentColorSo7UIColorCvMZ",
+                "moduleName": "HHARCoreKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isHideBackButton",
+            "printedName": "isHideBackButton",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11HHARCoreKit0aB6ConfigC16isHideBackButtonSbvpZ",
+            "mangledName": "$s11HHARCoreKit0aB6ConfigC16isHideBackButtonSbvpZ",
+            "moduleName": "HHARCoreKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11HHARCoreKit0aB6ConfigC16isHideBackButtonSbvgZ",
+                "mangledName": "$s11HHARCoreKit0aB6ConfigC16isHideBackButtonSbvgZ",
+                "moduleName": "HHARCoreKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11HHARCoreKit0aB6ConfigC16isHideBackButtonSbvsZ",
+                "mangledName": "$s11HHARCoreKit0aB6ConfigC16isHideBackButtonSbvsZ",
+                "moduleName": "HHARCoreKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11HHARCoreKit0aB6ConfigC16isHideBackButtonSbvMZ",
+                "mangledName": "$s11HHARCoreKit0aB6ConfigC16isHideBackButtonSbvMZ",
+                "moduleName": "HHARCoreKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11HHARCoreKit0aB6ConfigC",
+        "mangledName": "$s11HHARCoreKit0aB6ConfigC",
+        "moduleName": "HHARCoreKit",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
-    {
-      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/HHARCoreKitMarker.swift",
-      "kind": "IntegerLiteral",
-      "offset": 393,
-      "length": 2,
-      "value": "31"
-    },
-    {
-      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/HHARCoreKitMarker.swift",
-      "kind": "IntegerLiteral",
-      "offset": 396,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/HHARCoreKitMarker.swift",
-      "kind": "IntegerLiteral",
-      "offset": 416,
-      "length": 3,
-      "value": "106"
-    },
-    {
-      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/HHARCoreKitMarker.swift",
-      "kind": "IntegerLiteral",
-      "offset": 420,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/HHARCoreKitMarker.swift",
-      "kind": "IntegerLiteral",
-      "offset": 439,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/HHARCoreKitMarker.swift",
-      "kind": "IntegerLiteral",
-      "offset": 443,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/HHARCoreKitMarker.swift",
-      "kind": "IntegerLiteral",
-      "offset": 463,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/HHARCoreKitMarker.swift",
-      "kind": "BooleanLiteral",
-      "offset": 517,
-      "length": 5,
-      "value": "false"
-    },
     {
       "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/ARMeasure\/Focus Square\/FocusSquare.swift",
       "kind": "FloatLiteral",
@@ -2555,6 +2499,62 @@
       "offset": 337,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/HHARCoreKitMarker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 393,
+      "length": 2,
+      "value": "31"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/HHARCoreKitMarker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 396,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/HHARCoreKitMarker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 416,
+      "length": 3,
+      "value": "106"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/HHARCoreKitMarker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 420,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/HHARCoreKitMarker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 439,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/HHARCoreKitMarker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 443,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/HHARCoreKitMarker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 463,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/harshitvaish\/Documents\/HHARCoreKit\/HHARCoreKit\/HHARCoreKitMarker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 517,
+      "length": 5,
+      "value": "false"
     }
   ]
 }
