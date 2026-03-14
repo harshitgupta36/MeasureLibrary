@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "Area"; ObjectID = "Cn6-3C-F3J"; */
+"Cn6-3C-F3J.text" = "Area";
+
+/* Class = "UIButton"; normalTitle = "Share"; ObjectID = "Rlx-lu-BbJ"; */
+"Rlx-lu-BbJ.normalTitle" = "Share";
+
+/* Class = "UILabel"; text = "Tracking status"; ObjectID = "WKn-fG-Rl9"; */
+"WKn-fG-Rl9.text" = "Tracking status";
+
+/* Class = "UILabel"; text = "Total Length : 45yd"; ObjectID = "etu-QL-rKw"; */
+"etu-QL-rKw.text" = "Total Length : 45yd";
+
+/* Class = "UILabel"; text = "Area : 2.25yd"; ObjectID = "k4J-DL-063"; */
+"k4J-DL-063.text" = "Area : 2.25yd";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "lZr-53-gIB"; */
+"lZr-53-gIB.text" = "Label";
